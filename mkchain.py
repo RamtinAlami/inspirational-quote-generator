@@ -2,10 +2,7 @@ import random
 import copy 
 
 def main():
-    text = 'This is a sample text used for testing amnd ho dfs sad sa das d sa ds ad sa d f jdsf dskj '.lower().split()
-    u = train(text)
-    u = train('Balls sss S sssd asdsad'.lower().split(), u)
-    print(generate(u))
+    pass
 
 def train(data, input_model = {'START':[], 'END':[]}):
     """Trains a model using the input data and outputs a dictionary.
